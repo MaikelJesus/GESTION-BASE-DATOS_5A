@@ -1,1 +1,37 @@
-
+create table cliente (
+   idcliente            int                  not null,
+   nombresCliente       varchar(45)          null,
+   apellidosCliente     varchar(45)          null,
+   identificacion       varchar(45)          null,
+   telefonoMovil        varchar(45)          null,
+   email                varchar(45)          null,
+   cantidadRopa         int                  null,
+   constraint PK_CLIENTE primary key (idcliente)
+)
+create table productoVarios (
+   idproductoVarios             int   not     null,
+   nombreProducto               varchar(45)   null,
+   costoProducto                numeric (5,2) null,
+   constraint PK_PRODUCTOVARIOS primary key (idproductoVarios)
+)
+create table lavadora (
+   idlavadora                    int   not     null,
+   idproductoVarios              int   not     null,
+   precioHora                    numeric(5,2)  null,
+   caracteristicas               varchar(45)   null,
+   fechaUltimoMantenimiento      date          null,
+   fechaProximoMantenimiento     date          null,
+	observacionesLavadora        varchar(45)   null,
+   constraint PK_LAVADORA primary key (idlavadora)
+)
+create table alquilerLavadora (
+   idlavadora                  int           not null,
+   idcliente                   int           not null,
+   horaInicioLavadora         INTERVAL DAY (2) TO SECOND        null,
+   horaFinLavadora             INTERVAL DAY (2) TO SECOND              null,
+   observacionEntregaLavadora   varchar (50)     null,
+   observacionRecepcionLavadora varchar (50)     null,
+   numeroLAvadoras              int              null,
+   observacionesAdicionales     varchar (50)    null,
+   constraint PK_ALQUILERLAVADORA primary key (idlavadora, idcliente)
+)
