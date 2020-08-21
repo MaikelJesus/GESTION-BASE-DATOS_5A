@@ -1,1 +1,28 @@
+insert into cliente values
+(1,'Ingrid Fatima','Santana Sardi','1257894562','052487896','ingrid@hotmail.com',10),
+(2,'Maikel Jesus','Zambrano Aguayo','1315554830','095962947','maikel@hotmail.com',12),
+(3,'Daniela Juleika','Zambrano Aguayo','145784215','094514517','daniela@hotmail.com',8),
+(4,'Gema Katiuska','Zambrano Aguayo','12473574','096214754','gema@hotmail.com',45),
+(5,'Daniel Ricarte','Zambrano Cevallos','1306365121','0993916654','daniel@hotmail.com',5),
+(6,'Edilsa Rosalba','Aguayo chiriboga','13457845140','0987655637','edilsa@hotmail.com',10),
+(7,'Genesis Stefania','Santana Valencia','1351051899','0975487414','genesis@hotmail.com',24)
+drop table productoVarios
+insert into productoVarios values 
+(1,'deterjente',1.50),
+(2,'cloro',0.75),
+(3,'suavitel',1.00),
+(4,'jabon',1.50)
+drop table lavadora
+insert into lavadora values
+(1,1,2.00,'lava y seca','01-01-2020','01-02-2020','funciona correctamente'),
+(2,2,2.00,'solo lava','01-01-2020','01-02-2020','sin funcionamiento'),
+(3,3,2.00,'solo seca','01-01-2020','01-02-2020','en mantenimiento'),
+(4,4,2.00,'lava y seca','01-01-2020','01-02-2020','funciona correctamente')
+
+insert into alquilerlavadora values
+(1,1,'13:00:59','15:00:59','se ha entregado la lavadora sin ninguna novedad','no se ha mostrado ninguna novedad',1,'sin problemas'),
+(1,2,'14:00:59','14:30:59','se ha entregado la lavadora sin ninguna novedad','ha dejado de funcionar un boton',1,'se ha podido arreglar la falla'),
+(3,1,'09:30:00','10:00:59','se ha entregado la lavadora sin ninguna novedad','se ha recibido la lavadora sucia',1,'se ha limpiado la lavadora'),
+(2,3,'10:00:59','12:00:59','se ha entregado la lavadora sin ninguna novedad','no se ha mostrado ninguna novedad',1,'sin problemas')
+
 
