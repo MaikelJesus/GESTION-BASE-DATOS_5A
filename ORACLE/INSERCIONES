@@ -1,1 +1,41 @@
+insert into cliente values
+(1,'Ingrid Fatima','Santana Sardi','1257894562','052487896','ingrid@hotmail.com',10)
+insert into cliente values
+(2,'Maikel Jesus','Zambrano Aguayo','1315554830','095962947','maikel@hotmail.com',12)
+insert into cliente values
+(3,'Daniela Juleika','Zambrano Aguayo','145784215','094514517','daniela@hotmail.com',8)
+insert into cliente values
+(4,'Gema Katiuska','Zambrano Aguayo','12473574','096214754','gema@hotmail.com',45)
+insert into cliente values
+(5,'Daniel Ricarte','Zambrano Cevallos','1306365121','0993916654','daniel@hotmail.com',5)
+insert into cliente values
+(6,'Edilsa Rosalba','Aguayo chiriboga','13457845140','0987655637','edilsa@hotmail.com',10)
+insert into cliente values
+(7,'Genesis Stefania','Santana Valencia','1351051899','0975487414','genesis@hotmail.com',24)
 
+insert into productoVarios values 
+(1,'deterjente',1.50)
+insert into productoVarios values
+(2,'cloro',0.75)
+insert into productoVarios values
+(3,'suavitel',1.00)
+insert into productoVarios values
+(4,'jabon',1.50)
+
+insert into lavadora values
+(1,1,2.00,'lava y seca','01-01-2020','01-02-2020','funciona correctamente')
+insert into lavadora values
+(2,2,2.00,'solo lava','01-01-2020','01-02-2020','sin funcionamiento')
+insert into lavadora values
+(3,3,2.00,'solo seca','01-01-2020','01-02-2020','en mantenimiento')
+insert into lavadora values
+(4,4,2.00,'lava y seca','01-01-2020','01-02-2020','funciona correctamente')
+
+insert into alquilerlavadora values
+(1,1,'15 00:30:44','15 00:30:44','se ha entregado la lavadora sin ninguna novedad','no se ha mostrado ninguna novedad',1,'sin problemas')
+insert into alquilerlavadora values
+(1,2,'15 10:30:44','15 11:30:44','se ha entregado la lavadora sin ninguna novedad','ha dejado de funcionar un boton',1,'se ha podido arreglar la falla')
+insert into alquilerlavadora values
+(3,1,'14 09:30:00','16 10:00:59','se ha entregado la lavadora sin ninguna novedad','se ha recibido la lavadora sucia',1,'se ha limpiado la lavadora')
+insert into alquilerlavadora values
+(2,3,'12 10:00:59','13 12:00:59','se ha entregado la lavadora sin ninguna novedad','no se ha mostrado ninguna novedad',1,'sin problemas')
